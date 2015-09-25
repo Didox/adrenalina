@@ -1,0 +1,155 @@
+﻿/*#subMenuInterno #scrollmenu{ float:left; width:920px;}*/
+
+#subMenuInterno { border: 2px dotted #79bccd; width: 1000px; height: 34px; }
+#subMenuInterno .scroolLeft { float:left; border-right: 2px dotted #79bccd; height:30px; padding:5px; padding-top: 4px; }
+#subMenuInterno .scroolRight { float:left; border-left: 2px dotted #79bccd; height:30px; padding:5px; padding-top: 4px; }
+#subMenuInterno .scroolLeft:link, #subMenuInterno .scroolLeft:visited { color: #103C7B; text-decoration: none; font-weight: bold; font-size: 17px; }
+#subMenuInterno .scroolLeft:hover{ text-decoration: underline; }
+#subMenuInterno .scroolRight:link, #subMenuInterno .scroolLeft:visited { color: #103C7B; text-decoration: none; font-weight: bold; font-size: 17px; }
+#subMenuInterno .scroolRight:hover{ text-decoration: underline; }
+
+.menu-interno { z-index: 0 !important; }
+
+.ddsmoothmenuinterno{
+	font-family: Lucida Sans, Verdana;
+	font-size: 11px;	
+	font-weight: bold;
+	margin: 0px 0 0 0px;
+    float: left;
+    width: 931px;
+}
+
+.ddsmoothmenuinterno ul{
+    z-index:90;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.interno { /*top:inherit !important;*/ width:inherit !important }
+.interno a { border: 1px dotted #79BCCD !important; }
+.selecionado { background: #bdd8df; color: #0182a2 !important; }
+
+
+/*Top level list items*/
+.ddsmoothmenuinterno ul li{
+    position: relative;
+    display: inline;
+    float: left;
+    background: #fff;
+    margin-left:0px;
+    margin-top:0px;
+    height:30px;
+}
+
+/*Top level menu link items style*/
+.ddsmoothmenuinterno ul li a{
+    display: block;
+    color: white;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    border-right: 2px dotted #79bccd;
+    color: #103c7b;
+    text-decoration: none;
+    white-space: nowrap;
+    height:30px;
+    text-transform:uppercase;
+}
+
+* html .ddsmoothmenuinterno ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+    display: inline-block;
+}
+
+.ddsmoothmenuinterno ul li a:link, .ddsmoothmenuinterno ul li a:visited{
+    color: #103c7b;
+}
+
+.ddsmoothmenuinterno ul li a:hover{
+    background: #bdd8df; /*background of menu items during onmouseover (hover state)*/
+    color: #000;
+}
+	
+/*1st sub level menu*/
+.ddsmoothmenuinterno ul li ul.interno
+{
+    overflow:visible !important;
+}
+
+.ddsmoothmenuinterno ul li ul
+{
+    position: absolute;
+    left: 0;
+    display: none; /*collapse all sub menus to begin with*/
+    visibility: hidden;
+    margin-top:0px;
+    margin-left:0px;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenuinterno ul li ul li{
+    display: list-item;
+    float: none;
+    height:30px;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenuinterno ul li ul li ul{
+    top: 0;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenuinterno ul li ul li a{
+	font-family: Lucida Sans, Verdana;
+	font-size: 11px;	
+	font-weight: bold;
+    padding-bottom:0px;
+    padding-right:5px;
+    padding-left:0px;
+    margin: 0;
+    border-top-width: 0;
+    padding-left:10px;	
+    padding-right:20px;
+    text-align: left;
+    height: 30px;
+    text-transform:none;
+    padding-top: 7px;
+}
+
+.ddsmoothmenuinterno ul li ul li a:hover{
+    height:30px;
+}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenuinterno{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+.downarrowclass{
+    position: absolute;
+    top: 14px;
+    right: 5px;
+}
+
+.rightarrowclass{
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{ /*shadow for NON CSS3 capable browsers*/
+    /*position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background: silver;
+    *background:trasparent;*/
+}
+
+.toplevelshadow{ /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+    /*opacity: 0.8;*/
+}

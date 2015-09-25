@@ -1,0 +1,237 @@
+body 
+{
+    margin:0px 0px 0px 0px; 
+    background:#FFFFFF; 
+    font-size:11px; 
+    background:white url(../imagens/background.png) no-repeat center top 0px !important;
+    font-family: Arial, sans-serif;
+    margin-left: -26px;
+}
+
+.principal{ width:100%;}
+
+.topo{  }
+    .topoMeio{ width:1000px; height:134px;*height:154px; margin-top:-157px; *margin-top:-161px; margin-left:auto; margin-right:auto;}
+    .topoLogo{ width:107px; height:123px; margin-left:19px; *margin-left:24px; margin-top:22px; }
+    .topoImgLocalName{ width:582px; height:112px; margin-left:159px; margin-top:-104px; }
+    .topoMultiExtrato{ width:224px; height:114px; margin-left:754px; margin-top:-113px; background-image:url(../imagens/meio.jpg); }
+        .topoTableMultiExtrato{ width:224px; height:90px; border:0; background-image:url(../imagens/fundo_multi_extrato.jpg); position:absolute; z-index:2; }
+        .topoTrMultiExtratoTit{ font-family:Arial; font-size:13px; color:#c1c8cb; font-weight:bold; text-align:center; }
+        .topoTrMultiExtrato{ font-family:Arial; font-size:11px; color:#c9c9c9; font-weight:bold; text-align:center; }
+        .topoCampoMultiExtrato{ width: 195px; *width: 193px; height: 23px; font-family: Arial; font-size: 12px; color: #c9c9c9; font-style:italic; background-image:url(../imagens/fundo_campo_multi_extrato.gif); vertical-align:middle; border:1px; border-style: solid; border-color:#9a9c9d; }
+    .topoAlterarSair{ width:700px; height:25px; margin-left:271px; margin-top:-138px; text-align:right; font-family:Arial; font-size:11px; color:#e2e7eb; font-weight:bold; }
+        .topoLinkAlterarSair { font-size:11px; font-family:Arial; color:#c9c9c9; text-decoration:none; font-weight:bold; }
+        .topoLinkAlterarSair:hover { font-size:11px; font-family:Arial; color:#c9c9c9; text-decoration:none; font-weight:bold; }
+
+.menu{ width:100%; height: 330px;}
+    .menuMeio 
+    {
+        margin: 1px auto auto;
+        height: 35px;
+        float: right;
+    }
+    .menuLinha a{ padding-top:12px }
+    .menuMeio li{ margin-left:-33px; margin-top:5px; list-style-type: none; position:absolute; z-index:2;min-width: 88px;}
+
+.logo a img
+{
+    width:184px;
+}
+
+#container_8 #bullets
+{
+    width: 130px !important;
+    top: 275px !important;
+    position: absolute !important;
+    left: 210px !important;
+}
+
+.tbContentPage{ display:none; }
+.meio{ margin: 0px auto 0; width:1000px; min-height:220px; background-image: none !important; }
+    .meioBanner{ width:1000px; height:305px; margin-top:0px; margin-left:auto; margin-right:auto; margin-bottom:16px; }
+        .quadro1{ width:250px; float:left; margin-right:25px; }
+            .quadro1Topo{ width:250px; height:40px; }
+                .quadro1TopoFont 
+                {
+                    font-family: Arial;
+                    font-size: 22px;
+                    font-weight: bold;
+                    margin-top: 6px;
+                    margin-left: 6px;
+                    z-index: 2;
+                }
+            .quadro1Meio{ width:250px; }
+                .quadro1MeioImg{ width:266px; height:190px;border-bottom: 4px solid #00539f}
+                .quadro1MeioConteudo{
+                        height: 298px;
+                        overflow: hidden;
+                        width: 266px;
+                        background-color: #fff;
+                        border-bottom: 1px solid #4676b4;
+                        margin-bottom: 23px;
+                        position: relative;
+                     }
+                     #quadro5MeioConteudo
+                     {
+                         position:relative;
+                     }
+                 #container_6 .quadro1MeioConteudo{ 
+                    border-bottom: 1px solid #ca243f !important;}
+                .quadro1MeioLinkFont 
+                {
+                    display: block;
+                    color: #5b5b5f !important;
+                    font-size: 12px;
+                    text-decoration: none;   
+                }
+            .quadro1Rodape{ width:245px; height:14px; margin-top:-5px; }
+        .quadro2{ width:245px; float:left; }
+            .quadro2Topo{ width:250px; height:40px;  }
+                .quadro2TopoFont{ font-family:Arial; font-size:22px; font-weight:bold; color:#cc0000; margin-top:6px; margin-left:6px; z-index:2; }
+            .quadro2Meio{ width:250px; }
+                .quadro2MeioImg{ border:solid 3px #ff0000; }
+                .quadro2MeioConteudo{ padding-left:6px }
+                .quadro2MeioLinkFont{ font-family:Arial; font-size:10px; font-weight:bold; color:#ff0000; line-height:13px; }
+            .quadro2Rodape{ width:245px; height:14px; margin-top:-5px; }
+            .quadro3Topo{ width:450px; height:40px; }
+                .quadro3TopoFont{ font-family:Arial; font-size:22px; font-weight:bold; color:#196300; margin-top:6px; margin-left:6px; position:absolute; z-index:2; }
+            .quadro3Meio{ width:450px;}
+                .quadro3MeioImg{ border:solid 3px #228500; height:175px; width: 220px;}
+                .quadro3MeioConteudo{ padding-left:6px; float: left; width: 232px;}
+                .quadro3MeioConteudoFont{float: right;width: 228px; }
+                .quadro3MeioFontTitulo{ font-family:Arial; font-size:15px; font-weight:bold; color:#228500; }
+                .quadro3MeioLinkFont{ font-family:Arial; font-size:11px; font-weight:bold; color:#777d7f; }
+                .quadro3MeioFontLeiaMais{ font-family:Arial; font-size:10px; font-weight:bold; color:#228500; padding-left:170px; }
+            .quadro3Rodape{ width:450px; height:14px; margin-top:-5px; }
+        
+        .quadro4{ 
+            width: 450px;
+            float: left;
+            margin-right: 10px;
+            background-color: #fff;
+            height: 299px;
+            border-bottom: 1px solid #4676b4;
+            padding: 10px;
+            }
+        #container_7 .quadro1{ width: 220px; }
+            .quadro4Topo{ width:450px; height:40px;  }
+                .quadro4TopoFont{ font-family:Arial; font-size:22px; font-weight:bold; color:#009bc3; margin-top:6px; margin-left:6px; position:absolute; z-index:2; }
+            .quadro4Meio{ width:450px; }
+            .quadro4Rodape{ width:450px; height:14px; margin-top:-5px; }
+        .quadro5{ float:left; }
+            .quadro5Topo{ width:250px; height:40px; }
+                .quadro5TopoFont{ font-family:Arial; font-size:22px; font-weight:bold; color:#FF0000; margin-top:6px; margin-left:6px; position:absolute; z-index:2; }
+            .quadro5Meio{ width:250px; }
+                .quadro5MeioImg{ border:solid 3px #ff0000; }
+                .quadro5MeioLinkFont{ font-family:Arial; font-size:10px; font-weight:bold; color:#ff0000; line-height:13px; }
+            .quadro5Rodape{ width:245px; height:14px; margin-top:-5px; }
+        .quadro6{ width:245px; float:left; }
+            .quadro6Topo{ width:250px; height:40px;  }
+                .quadro6TopoFont{ font-family:Arial; font-size:22px; font-weight:bold; color:#0c2c5e; margin-top:6px; margin-left:6px; position:absolute; z-index:2; }
+            .quadro6Meio{ width:250px; }
+            .quadro6Rodape{ width:250px; height:14px; margin-top:-5px; }
+            
+        .quadro11{ width:450px; float:left; }
+            .quadro11Topo{ width:450px; height:40px; }
+                .quadro11TopoFont{ font-family:Arial; font-size:22px; font-weight:bold; color:#0c2c5e; margin-top:6px; margin-left:6px; position:absolute; z-index:2; }
+            .quadro11Meio{ width:450px; margin-left: -11px}
+                .quadro11MeioImg{ border:solid 3px #228500; height:175px; width: 220px;}
+                .quadro11MeioConteudo{ padding-left:6px; float: left; width: 232px;}
+                .quadro11MeioConteudoFont{float: right;width: 228px; }
+                .quadro11MeioFontTitulo{ font-family:Arial; font-size:15px; font-weight:bold; color:#228500; }
+                .quadro11MeioLinkFont{ font-family:Arial; font-size:11px; font-weight:bold; color:#777d7f; }
+                .quadro11MeioFontLeiaMais{ font-family:Arial; font-size:10px; font-weight:bold; color:#228500; padding-left:170px; }
+            .quadro11Rodape{ width:450px; height:14px; margin-top:-5px; }
+
+        .quadro7{ width:450px; float:left; }
+            .quadro7MeioImg{ border:solid 3px #535c63; }
+        .quadro8{ width:245px; float:left; }
+            .quadro8Topo{ width:250px; height:33px; }
+                .quadro8TopoFont{ font-family:Arial; font-size:22px; font-weight:bold; color:#0c2c5e; margin-top:3px; margin-left:15px; position:absolute; z-index:2; }
+            .quadro8Meio{ width:250px; height: 153px; }
+                .quadro8MeioConteudo{ padding-left:13px }
+                .quadro8MeioConteudoFont{ margin-top:-136px; *margin-top:-140px; margin-left:120px; width:116px; height:150px; overflow:hidden; }
+                .quadro8MeioConteudoFont p{ margin:0px;padding-top:2px;padding-bottom:2px; }
+                .quadro8MeioFontTitulo{ font-family:Arial; font-size:15px; font-weight:bold; }
+                .quadro8MeioFontConteudo{ font-family:Arial; font-size:11px; font-weight:bold; color:#103b7c; }
+                .quadro8MeioLinkFont{ font-family:Arial; font-size:11px; font-weight:bold; color:#777d7f; }
+                .quadro8MeioFontLeiaMais{ font-family:Arial; font-size:10px; font-weight:bold; color:#103b7c; padding-left:10px; }
+            .quadro8Rodape{ width:250px; height:14px; margin-top:-5px; }
+        .quadro9{ width:250px; float:left; }
+            .quadro9Topo{ width:250px; height:35px; }
+                .quadro9TopoFont{ font-family:Arial; font-size:22px; font-weight:bold; color:#0c2c5e; margin-top:6px; margin-left:15px; position:absolute; z-index:2; }
+            .quadro9Meio{ width:250px; height: 151px;}
+                .quadro9MeioTd{ text-align:right; line-height:13px; padding-right:12px; }
+            .quadro9Campo{ width: 188px; height: 20px; font-family: Arial; font-size: 12px; color: #646e70; background-image:url(../imagens/fundo_campo_quem_e_quem.gif); vertical-align:middle; border:1px; border-style: solid; border-color:#6a6f72; }
+            .quadro9Rodape{ width:250px; height:14px; margin-top:-5px; }
+    .quadro10{ width:1000px; float:left;}
+        .quadro10Topo{ width:1000px; height:40px; }
+            .quadro10TopoFont{ font-family:Arial; font-size:22px; font-weight:bold; color:#196300; margin-top:6px; margin-left:15px; position:absolute; z-index:2; }
+        .quadro10Meio{ width:1000px; }
+        .quadro10Rodape{ width:1000px; height:14px; margin-top:-5px; }
+
+.fundoRodape{ width: 100%; height:90px; margin-top:3px; *margin-top:4px; position:absolute; z-index:0 !important; background-image:url(../imagens/fundo_rodape.gif); }
+.rodape{ width: 983; height:57px; margin-top:16px; text-align: center;  margin-left:auto; margin-right:auto; }
+    .rodapeBtnMapa{ display:block; width: 600px; margin-top:-34px; *margin-top:-38px; margin-left:auto; margin-right:auto; padding-right: 273px; }
+	.rodapeBtnAjuda{ display:block; width: 600px; margin-top:-15px; *margin-top:-19px; margin-left:auto; margin-right:auto; padding-right: 93px; }
+	.rodapeBtnFaleConosco{ display:none; margin-left: 480px; margin-right: auto; margin-top: -34px; width: 600px; }
+	.rodapeBtnFaleConoscoLogado{ display:block; margin-left: 88px; margin-right: auto; margin-top: -15px; *margin-top: -21px; }
+    .rodapeEspacador1{ display:block; width: 600px; margin-top:-16px; *margin-top:-20px; margin-left:auto; margin-right:auto; padding-right: 157px; }
+    .rodapeEspacador2{ display:block; width: 600px; margin-top:-16px; *margin-top:-20px; margin-left:auto; margin-right:auto; padding-right: 26px; }
+
+.homeLink { padding: 5px; margin-left: 2px; float:left; border-right: 1px solid #778; height:28px;}
+.botaoGenerico{ border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    font-family:Arial; font-size: 11px; font-weight:bold; color: #ffffff; font-style:italic; margin: 0; padding: 0; background: transparent url(../imagens/btn_generico.png) no-repeat center top; cursor:pointer; display:block; }
+.botaoGenerico_G{ font-family:Arial; font-size: 14px; font-weight:bold; color: #ffffff; font-style:italic; width: 285px; height: 27px; margin: 0; padding: 0; border: 0; background: transparent url(../imagens/btn_generico_g.png) no-repeat center top; cursor:pointer; text-transform: capitalize;}
+
+.breadcrumb { margin-left: 12px;text-transform: uppercase; font-family: Arial; font-size: 11px; font-weight: bold; color: #424d58; }
+.breadcrumb a:link, .breadcrumb a:visited { color: #424d58; text-decoration: none; }
+.breadcrumb a:hover{ color: #424d58; text-decoration: underline; }
+.breadcrumb .corrent { color: #c0c0c0; }
+
+#componentLogin { display:none; }
+
+#imgLoading { color:#8B8989; font-weight:bold; font-size:15px; height:100px; text-align:justify; }
+#imgLoading img { float:left; }
+#imgLoading div { margin-left:10px; margin-top:20px; float:left; }
+
+#searchResult { background-color: #7f8993; border: 1px solid #000000; color: #25272b; margin-left: -754px;  font-family: arial; padding-left: 5px; font-size: 13px; margin-top: 46px; position: absolute; width: 981px; z-index: 900; }
+#searchResult h3{ padding-left: 10px; font-family: arial; }
+#searchResult a:link, #searchResult a:visited { color: #25272b; text-decoration: none; font-family: arial; }
+#searchResult a:hover{ text-decoration: underline; }
+
+.noticias-h2{font-family:Arial; font-size:22px; font-weight:bold; color:#ca243f;}
+.noticias-ver-novidades{font-size:13px;color: #5b5b5f;float: right;font-family: Arial;font-weight: bold;width: 180px;}
+.noticias-ver-novidades a{color: #5b5b5f;text-decoration: none;}
+
+.noticias-anterior {font-family:Arial;font-weight:bold;float: right; font-size: 13px; width: 75px;}
+.noticias-anterior a{color: #5b5b5f;text-decoration: none;}
+
+.noticias-separador {float:right;color: #5b5b5f; font-size: 13px;  width: 8px;}
+
+.noticias-proximo{font-family:Arial;font-weight:bold;color:#5b5b5f;float: right; font-size: 13px;}
+.noticias-proximo a{color: #5b5b5f;text-decoration: none;}
+
+.noticias-pontilhado {border: 1px dashed #172226;}
+.noticias-pontilhado-inferior {border: 1px dashed #172226;margin: 10px 0px 3px 0px;}
+.noticias-data{color: #234A86;font-family:Arial;font-size: 13px;font-weight: bold;}
+.noticias-titulo{color: #5b5b5f;font-family: Arial;font-size: 15px;font-weight: bold;}
+.noticias-conteudo{font-size:11px;font-weight:bold;font-family:Arial;color:#9EA2A3;}
+
+.tituloLocalName{font-family:Arial;font-size:20px;font-weight:bold;color:#0d3167;word-spacing: 3px;}
+
+.cadastroBox_bg{ background-image:url(../imagens/cadastro_box_lin_dir.gif); background-repeat:repeat-y;width:980px; font-family:Arial;font-size:12px;}
+
+.quadro1MeioLinkFont p
+{
+    margin:0px;padding:0px;
+    margin-left: 6px;
+    margin-top: 8px;                  
+}
+/*
+.menuInterno .interno{ display:none; }
+.menuInterno li{ float:left; margin:10px; }
+.menuInterno .subMenu-interno { float:none !important; position:absolute; }
+*/

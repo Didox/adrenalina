@@ -1,0 +1,837 @@
+/******************** RESET CSS ************************/
+*{box-sizing:border-box;, -moz-box-sizing:border-box;}
+html, body, div, span, applet, object, iframe, table, caption,
+tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+body {
+    line-height: 1;
+}
+ol, ul, li {
+    list-style: none;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+
+#modal .botaoGenerico
+{
+    text-align:center;
+    border: 1px dashed #cfcfcf !important;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+
+/********* COMUM PARA TODAS AS PAGINAS **********/
+a {
+    text-decoration: none;
+}
+
+body{
+    background: #e8f4f6;
+    font-family: Arial, sans-serif;
+}
+
+.bordatop1, .bordatop2, .bordatop3
+{
+    padding:20px;
+}
+
+.container{
+    width:1000px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear:both;
+}
+footer{
+    background-color: #fff;
+    float: left;
+    width:100%;
+    height: 68px;
+}
+footer ul{
+    border-radius:5px;
+    background-color: #4595c9;
+    width: 620px;
+    margin: 17px auto 0;
+    padding:1px;
+    border-top:1px solid #89bee0;
+    border-left:1px solid #89bee0;
+    height: 37px;
+    float: left;
+    margin-left: 140px;
+}
+footer .logoVW
+{
+    float: left;
+    width: 40px;
+    background: white url(../imagens/vw-logo.jpg) no-repeat !important;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 34px;
+}
+footer ul li{
+    display: block;
+    float: left;
+    border-radius:5px;
+    line-height: 37px;
+}
+footer ul li a{
+    color:white;
+}
+footer ul li.copyright{
+    background-color: #33698d;
+    height: 33px;
+    padding:0 15px;
+    color:#143350;
+    font-size: 12px;
+    text-shadow:1px 1px 1px #7da6c3;
+}
+/****************** INTRO *********************/
+.header{
+    background-color: #137ec2;
+    float: left;
+    width:100%;
+    height: 75px;
+}
+.header h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+}
+.header h1 span{
+    font-size: 14px;
+    color: white;
+    float:right;
+    margin-left:0px;
+    margin-right:10px;
+}
+#intro{
+    float: left;
+    min-height: 735px;
+    width: 100%;
+    padding-top:90px;
+    background:none;
+}
+#login-form{
+    background-color: white;
+    width:300px;
+    height: 160px;
+    margin:0 auto;
+    padding: 20px;
+    box-shadow: 1px 1px 3px #555;
+    border-radius: 3px;
+}
+#login-form legend{
+    color:#137ec2;
+    font-size: 22px;
+}
+#login-form .login-actions{
+    width:140px;
+    float: left;
+    font-size: 12px;
+}
+
+#tituloVideoDestaque{ color: #00539f; }
+#subtituloVideoDestaque{ color: #00539f; }
+#descricaoVideoDestaque{ color: #00539f; }
+
+#login-form .login-actions a{
+    margin-bottom: 5px;
+    display: block;
+    color:#696969;
+}
+#login-form .login-actions a:hover{
+    text-decoration: underline;
+}
+#login-form input[type=text]{
+    width:100%;
+    font-size: 13px;
+    border:1px solid #a6a6a6;
+    border-radius: 5px;
+    height: 30px;
+    line-height:30px;
+    padding: 0 10px;
+    text-align: center;
+    background: rgba(205,205,205,1);
+    background: -moz-linear-gradient(top, rgba(205,205,205,1) 0%, rgba(236,236,236,1) 50%, rgba(236,236,236,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(205,205,205,1)), color-stop(50%, rgba(236,236,236,1)), color-stop(100%, rgba(236,236,236,1)));
+    background: -webkit-linear-gradient(top, rgba(205,205,205,1) 0%, rgba(236,236,236,1) 50%, rgba(236,236,236,1) 100%);
+    background: -o-linear-gradient(top, rgba(205,205,205,1) 0%, rgba(236,236,236,1) 50%, rgba(236,236,236,1) 100%);
+    background: -ms-linear-gradient(top, rgba(205,205,205,1) 0%, rgba(236,236,236,1) 50%, rgba(236,236,236,1) 100%);
+    background: linear-gradient(to bottom, rgba(205,205,205,1) 0%, rgba(236,236,236,1) 50%, rgba(236,236,236,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdcdcd', endColorstr='#ececec', GradientType=0 );
+    margin:15px 0;
+}
+#login-form input[type=submit], #login-form input[type=button]{
+    float: right;
+    border: none;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    color:white;
+    background-color: #8e96a0;
+    border:1px solid #737d86;
+    border-radius:5px;
+    font-style: italic;
+    font-size: 13px;
+    cursor: pointer;
+}
+::-webkit-input-placeholder {
+   color: #525252;
+   text-align: center;
+}
+:-moz-placeholder {
+   color: #525252;  
+}
+::-moz-placeholder {
+   color: #525252;  
+}
+:-ms-input-placeholder {  
+   color: #525252;
+}
+footer ul li.fale-conosco{
+    width:177px;
+    font-size: 15px;
+    text-align: center;
+}
+footer ul li.fale-conosco a{
+    color:white;
+    display: block;
+} 
+/**************** HOME *********************/
+
+#topo{
+    width:100%;
+    background: #4676b4;
+    height: 35px;
+    line-height: 35px;
+}
+#topo span{
+    display: block;
+    float: left;
+    color: white;
+    font-size: 13px;
+}
+#topo span strong{
+    font-weight: bold;
+    color: #d2aa2c;
+}
+#topo span.extrato{
+    margin-right: 20px;
+}
+#topo span.extrato:before{
+
+}
+#topo span.credito{
+    margin-right: 80px;
+}
+#topo span.credito:before{
+    content:"Créditos: ";
+    font-weight: bold;
+    color: #d2aa2c;
+}
+#topo span.categoria{}
+#topo span.categoria:before{
+    content:"Categoria: ";
+    font-weight: bold;
+    color: #d2aa2c;
+}
+#topo span.dn{}
+#topo span.dn:before{
+    content:"DN: ";
+    font-weight: bold;
+    color: #d2aa2c;
+    margin-left:20px;
+}
+#topo span.concessionaria{}
+#topo span.concessionaria:before{
+    content:"Concessionária: ";
+    font-weight: bold;
+    color: #d2aa2c;
+    margin-left:20px;
+}
+#topo span.bem-vindo{
+    float: right;
+}
+#topo span.bem-vindo:before{
+    content:url(../imagens/adrenalina/ico-topo-user.png);
+}
+#topo span.minha-conta{
+    float: right;
+    margin-left: 10px;
+}
+#topo span.minha-conta:before{}
+#topo span.sair{
+    float: right;
+    margin-left: 10px;
+}
+#topo span.sair:before{}
+#topo span a {
+    background-color: #f3d033;
+    color:#ca243f;
+    display: block;
+    padding: 0 5px;
+}
+
+header .container{
+    position: relative;
+}
+
+header .logo{
+    cursor: pointer;
+    position: absolute;
+    left: 687px;
+    top: 80px;
+    /* background-color: blue; */
+    height: 270px;
+    width: 300px;
+}
+
+header nav{
+    height: 95px;
+    line-height: 95px;
+    background: #c8eafa;
+}
+
+header nav ul{
+    float: right;
+}
+
+header .grafico{
+    float: right;
+    margin-right: 60px;
+}
+
+header nav ul li{
+    display: block;
+    float: left;
+    height: 95px;
+}
+
+header nav ul li a{
+    color: black;
+    display: block;
+    line-height: 95px;
+    height: 95px;
+    font-size: 13px;
+    padding: 0 10px;
+}
+
+header nav ul li a:hover, header nav ul li a.current{
+    height: 95px;
+    border-bottom: 3px solid #00539f;
+}
+
+#home {
+    float: left;
+    width: 100%;
+}
+
+#home .destaque1{
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#home .destaque2{
+    width: 250px;
+    float: left;
+    margin-right: 25px;
+}
+
+#home .destaque2 .imagem{
+    width: 250px;
+    position: relative;
+    height: 194px;
+    border-bottom:4px solid #00539f;
+}
+
+#home .destaque2 .imagem:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 16px solid #00539f;
+    left:22px;
+    top: 175px;
+}
+
+#home .destaque2 img{
+    width: 250px;
+}
+
+#home .destaque2 h3{
+    color:#00539f;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+#home .destaque2 span{
+    display: block;
+    color:#5b5b5f;
+    font-size: 12px;
+    margin: 10px 0;
+    padding:0 10px;
+}
+
+#home .fotos{
+    float: left;
+    width: 433px;
+    height: 300px;
+    position:relative;
+}
+
+#home .fotos #verTodos
+{
+    float: left;
+    position: absolute;
+    top: 157px;
+    width: 200px;
+    left: 242px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #00539f;
+}
+
+#home .fotos .principal{
+    width: 230px;
+    height: 182px;
+    float: left;
+    position: relative;
+    border-right:3px solid #00539f;
+}
+
+#home .fotos #fotoVideoDestaque{
+    width: 230px;
+    height: 195px;
+    border-right: 4px solid #00539f;
+}
+#home .fotos .principal:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-right: 16px solid #00539f;
+    right: 0;
+    top: 20px;
+}
+#home .fotos .info{
+    float: right;
+    width: 190px;
+    color:#00539f;
+    font-size: 13px;
+    padding-top: 15px;
+}
+#home .fotos .info h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+#home .fotos .info strong{
+    font-weight: bold;
+    display: block;
+    margin:7px 0;
+}
+#home .fotos .thumbs{
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+    padding:0 21px;
+    position: relative;
+}
+#home .fotos .thumbs li{
+    display: block;
+    float: left;
+    margin-right: 2px;
+}
+#home .fotos .thumbs a.nav{
+    position: absolute;
+    display: block;
+    width: 20px;
+    top: 0px;
+    height: 85px;
+    opacity: 0.8;
+}
+#home .fotos .thumbs a.nav:hover{
+    opacity: 1;
+}
+#home .fotos .thumbs a.anterior{
+    left:0px;
+    background: url(../imagens/adrenalina/anterior.jpg);
+}
+#home .fotos .thumbs a.proxima{
+    right:0px;
+    background: url(../imagens/adrenalina/proximo.jpg);
+}
+#home .fotos .thumbs li:last-child{
+    margin: 0;
+}
+#home .destaque3{
+    float: left;
+    width: 215px;
+    margin-left: 20px;
+    position: relative;
+}
+#home .destaque3 .imagem{
+    width: 215px;
+    position: relative;
+    height: 199px;
+    border-bottom:4px solid #00539f;
+}
+#home .destaque3 .imagem:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 16px solid #00539f;
+    left:22px;
+    top: 180px;
+}
+#home .destaque3 h3{
+    float: left;
+    padding-left: 10px;
+    margin: 7px 0;
+    font-size: 21px;
+    font-weight: bold;
+    width: 100%;
+    color:#00539f;
+}
+#home .destaque3 p{
+    display: block;
+    padding-left: 10px;
+    font-size: 12px; 
+    color: #5b5b5f;
+    line-height: 14px;
+}
+#home .destaque3 p a{
+    font-weight: bold;
+    color:#d2aa2c;
+}
+#home .destaque3.ranking ul{
+    border-bottom:4px solid #ca243f;
+    float: left;
+    max-height: 199px;
+}
+#home .destaque3.ranking ul:after{
+    border-bottom: 16px solid #ca243f;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    left:22px;
+    top: 180px;
+}
+#home .destaque3.ranking ul li{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    float: left;
+    line-height: 35px;
+    background-color: #e1e1e1;
+    color:#5b5b5f;
+    font-size: 12px;
+}
+#home .destaque3.ranking ul li:last-child{
+    margin-bottom: 0;
+}
+#home .destaque3.ranking ul li span{
+    display: block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #c2c2c2;
+    margin-right: 10px;
+    color:#909090;
+    font-size: 18px;
+}
+#home .destaque3.ranking ul li.selecionado span, #home .destaque3.ranking ul li:hover span{
+    color: white;
+    background-color: #ca243f;
+}
+#home .destaque3.ranking h3{
+    color:#ca243f;
+}
+#home .parceiros{
+    float: left;
+    width: 530px;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 0px;
+    padding: 4px;
+    background-color: #fff;
+    border-bottom: 1px solid #ca243f;
+}
+
+#home .parceiros li{
+    background-color:#fff;
+}
+
+#home .parceiros .imagem img{
+    width: 519px !important;
+}
+#home .parceiros .imagem{
+    width: 519px;
+    position: relative;
+    height: 199px;
+    border-bottom:4px solid #ca243f;
+}
+#home .parceiros .imagem:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 16px solid #ca243f;
+    left:22px;
+    top: 180px;
+}
+
+#home .parceiros h3 {
+    margin: 7px 0;
+    font-size: 21px;
+    font-weight: bold;
+    width: 100%;
+    color:#ca243f;
+}
+#home .parceiros span{
+    font-size: 12px;
+    color: #5b5b5f;
+}
+
+#home .noticias{
+    width: 458px;
+    float: right;
+    height: 300px;
+    margin-top: 0px;
+    background-color: #fff;
+    padding: 2px;
+    border-bottom: 1px solid #ca243f;
+    cursor: pointer;
+}
+
+
+#container_6 .quadro1MeioImg 
+{
+    border-bottom: 4px solid #ca243f !important;
+}
+#container_6 .quadro1MeioConteudo:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 16px solid #ca243f;
+    top: 172px;
+    left: 31px;
+}
+
+#container_6 #imgEnquete
+{
+    float: left;
+    margin-right: 9px;
+}
+
+#container_7 .quadro1MeioConteudo:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 16px solid #00539f;
+    top: 172px;
+    left: 27px;
+}
+
+#container_3 .quadro1MeioConteudo:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 16px solid #00539f;
+    top: 172px;
+    left: 21px;
+}
+
+#container_2 .quadro1MeioConteudo:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 16px solid #00539f;
+    top: 172px;
+    left: 27px;
+}
+
+#listaVideos{
+    height: 84px;
+    width: 980px;
+}
+
+.thumbs_without_but{
+    width: 408px;
+    overflow: hidden;
+    height: 85px;
+}
+
+#home .noticias .imagem{
+    width: 279px;
+    height: 293px;
+    float: left;
+    position: relative;
+    border-right: 4px solid #ca243f;
+    background-color: #fff;
+    margin-right: 4px;
+}
+#home .noticias .imagem:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-right: 16px solid #ca243f;
+    right: 0;
+    top: 20px;
+}
+
+#home .noticias h3{
+    width: 170px;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ca243f;
+    margin: 15px 0;
+}
+
+#home .noticias .info{
+    width: 170px;
+    float: right;
+    color: #5b5b5f;
+    font-size: 13px;
+}
+
+#home .noticias .info strong{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#home .noticias .info a{
+    display: block;
+    color: #d2aa2c;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/********* ULTIMAS NOTICIAS *************/
+
+.ultimas-noticias{
+    margin-top: 20px;
+    height: 340px;
+    padding: 30px 0 0 0;
+    background: #d1e9f9 url(../imagens/adrenalina/bg-ultimas-noticias.png) no-repeat center top
+}
+
+.ultimas-noticias h3{
+    font-size: 25px;
+    color: #00539f;
+    font-weight: bold;padding-left: 20px;
+}
+
+.ultimas-noticias ul{
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+
+.ultimas-noticias ul li{
+    display: block;
+    width: 325px;
+    float: left;
+}
+
+.ultimas-noticias ul li img{
+    float: left;
+}
+
+.ultimas-noticias ul li .info{
+    float: right;
+    width: 190px;
+    color:#5b5b5f;
+}
+
+.ultimas-noticias ul li .info h5{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ultimas-noticias ul li .info span{
+    display: block;
+    font-size: 12px;
+    margin: 15px 0;
+}
+
+.ultimas-noticias ul li .info a{
+    color: #d2aa2c;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer ul li.politica-de-privacidade{
+    width:360px;
+    font-size: 15px;
+    text-align: center;
+}
+footer ul li.politica-de-privacidade a{
+    color:white;
+    display: block;
+} 
