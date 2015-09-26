@@ -229,92 +229,23 @@ footer ul li.fale-conosco a{
 } 
 /**************** HOME *********************/
 
-#topo{
-    width:100%;
-    background: #4676b4;
-    height: 35px;
-    line-height: 35px;
-}
-#topo span{
-    display: block;
-    float: left;
-    color: white;
-    font-size: 13px;
-}
-#topo span strong{
-    font-weight: bold;
-    color: #d2aa2c;
-}
-#topo span.extrato{
-    margin-right: 20px;
-}
-#topo span.extrato:before{
-
-}
-#topo span.credito{
-    margin-right: 80px;
-}
-#topo span.credito:before{
-    content:"Créditos: ";
-    font-weight: bold;
-    color: #d2aa2c;
-}
-#topo span.categoria{}
-#topo span.categoria:before{
-    content:"Categoria: ";
-    font-weight: bold;
-    color: #d2aa2c;
-}
-#topo span.dn{}
-#topo span.dn:before{
-    content:"DN: ";
-    font-weight: bold;
-    color: #d2aa2c;
-    margin-left:20px;
-}
-#topo span.concessionaria{}
-#topo span.concessionaria:before{
-    content:"Concessionária: ";
-    font-weight: bold;
-    color: #d2aa2c;
-    margin-left:20px;
-}
-#topo span.bem-vindo{
-    float: right;
-}
-#topo span.bem-vindo:before{
-    content:url(../imagens/adrenalina/ico-topo-user.png);
-}
-#topo span.minha-conta{
-    float: right;
-    margin-left: 10px;
-}
-#topo span.minha-conta:before{}
-#topo span.sair{
-    float: right;
-    margin-left: 10px;
-}
-#topo span.sair:before{}
-#topo span a {
-    background-color: #f3d033;
-    color:#ca243f;
-    display: block;
-    padding: 0 5px;
-}
 
 header .container{
     position: relative;
 }
 
 header .logo{
+    margin: auto;
+    background: #000;
+    width: 60% !important;
+}
+header .link{
     cursor: pointer;
     position: absolute;
-    left: 687px;
-    top: 80px;
-    /* background-color: blue; */
     height: 270px;
-    width: 300px;
+    width: 550px;
 }
+
 
 header nav{
     height: 95px;

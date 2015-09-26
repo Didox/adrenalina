@@ -23,15 +23,112 @@ body
         .topoLinkAlterarSair { font-size:11px; font-family:Arial; color:#c9c9c9; text-decoration:none; font-weight:bold; }
         .topoLinkAlterarSair:hover { font-size:11px; font-family:Arial; color:#c9c9c9; text-decoration:none; font-weight:bold; }
 
-.menu{ width:100%; height: 330px;}
-    .menuMeio 
-    {
-        margin: 1px auto auto;
-        height: 35px;
-        float: right;
-    }
-    .menuLinha a{ padding-top:12px }
-    .menuMeio li{ margin-left:-33px; margin-top:5px; list-style-type: none; position:absolute; z-index:2;min-width: 88px;}
+.menu{ 
+    margin: auto;
+    width: 60% !important;
+    padding: 5px;
+    width:100%; height: 360px;
+}
+.menu_container{
+    height: 35px !important;
+    border-radius: 39px;
+    background-color: #497dba;
+    width: 900px !important;
+}
+.fundo_menu{ 
+    width:1010px; height: 80px;
+    background: url(../imagens/menu.png) no-repeat center top 0px;
+}
+.fundo_menu .container{
+    height: 36px;
+    width: 900px;
+
+}
+.fundo_menu span{
+    display: block;
+    float: left;
+    color: white;
+    font-size: 13px;
+}
+.fundo_menu span strong{
+    font-weight: bold;
+    color: #244669;
+}
+.fundo_menu span.extrato{
+    margin-right: 20px;
+}
+.fundo_menu span.extrato:before{
+
+}
+.fundo_menu span.credito{
+    margin-right: 80px;
+}
+.fundo_menu span.credito:before{
+    content:"Créditos: ";
+    font-weight: bold;
+    color: #244669;
+}
+.fundo_menu span.categoria:before{
+    content:"Categoria: ";
+    font-weight: bold;
+    color: #244669;
+}
+.fundo_menu span.dn{}
+.fundo_menu span.dn:before{
+    content:"DN: ";
+    font-weight: bold;
+    color: #244669;
+    margin-left:20px;
+}
+.fundo_menu span.concessionaria{}
+.fundo_menu span.concessionaria:before{
+    content:"Concessionária: ";
+    font-weight: bold;
+    color: #244669;
+    margin-left:20px;
+}
+.fundo_menu span.bem-vindo{
+    float: right;
+}
+.fundo_menu span.bem-vindo:before{
+    content:url(../imagens/adrenalina/ico-topo-user.png);
+}
+.fundo_menu .container .textos{
+    padding-top: 11px;
+    width: 916px;
+}
+.fundo_menu span.minha-conta{
+    float: right;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.fundo_menu span.minha-conta:before{}
+.fundo_menu span.sair{
+    float: right;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.fundo_menu span.sair:before{}
+.fundo_menu span a {
+    background-color: #396b9e;
+    color:#fff;
+    display: block;
+    width: 100px;
+    height: 31px;
+    padding-top: 9px;
+    text-align: center;
+}
+.fundo_menu span.sair a {
+    width: 40px !important;
+}
+.menuMeio 
+{
+    height: 35px;
+    margin: auto;
+    width: 835px !important;
+}
+.menuLinha a{ padding-top:12px }
+.menuMeio li{ margin-left:-33px; margin-top:5px; list-style-type: none; position:absolute; z-index:2;min-width: 88px;}
 
 .logo a img
 {
