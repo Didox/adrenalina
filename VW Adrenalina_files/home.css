@@ -3,7 +3,7 @@ body
     margin:0px 0px 0px 0px; 
     background:#FFFFFF; 
     font-size:11px; 
-    background:white url(../imagens/background.png) no-repeat center top 0px !important;
+    background:white url(../imagens/adrenalina/imagens/background.png) no-repeat center top 0px;
     font-family: Arial, sans-serif;
     margin-left: -26px;
 }
@@ -14,18 +14,18 @@ body
     .topoMeio{ width:1000px; height:134px;*height:154px; margin-top:-157px; *margin-top:-161px; margin-left:auto; margin-right:auto;}
     .topoLogo{ width:107px; height:123px; margin-left:19px; *margin-left:24px; margin-top:22px; }
     .topoImgLocalName{ width:582px; height:112px; margin-left:159px; margin-top:-104px; }
-    .topoMultiExtrato{ width:224px; height:114px; margin-left:754px; margin-top:-113px; background-image:url(../imagens/meio.jpg); }
-        .topoTableMultiExtrato{ width:224px; height:90px; border:0; background-image:url(../imagens/fundo_multi_extrato.jpg); position:absolute; z-index:2; }
+    .topoMultiExtrato{ width:224px; height:114px; margin-left:754px; margin-top:-113px; background-image:url(../imagens/adrenalina/imagens/meio.jpg); }
+        .topoTableMultiExtrato{ width:224px; height:90px; border:0; background-image:url(../imagens/adrenalina/imagens/fundo_multi_extrato.jpg); position:absolute; z-index:2; }
         .topoTrMultiExtratoTit{ font-family:Arial; font-size:13px; color:#c1c8cb; font-weight:bold; text-align:center; }
         .topoTrMultiExtrato{ font-family:Arial; font-size:11px; color:#c9c9c9; font-weight:bold; text-align:center; }
-        .topoCampoMultiExtrato{ width: 195px; *width: 193px; height: 23px; font-family: Arial; font-size: 12px; color: #c9c9c9; font-style:italic; background-image:url(../imagens/fundo_campo_multi_extrato.gif); vertical-align:middle; border:1px; border-style: solid; border-color:#9a9c9d; }
+        .topoCampoMultiExtrato{ width: 195px; *width: 193px; height: 23px; font-family: Arial; font-size: 12px; color: #c9c9c9; font-style:italic; background-image:url(../imagens/adrenalina/imagens/fundo_campo_multi_extrato.gif); vertical-align:middle; border:1px; border-style: solid; border-color:#9a9c9d; }
     .topoAlterarSair{ width:700px; height:25px; margin-left:271px; margin-top:-138px; text-align:right; font-family:Arial; font-size:11px; color:#e2e7eb; font-weight:bold; }
         .topoLinkAlterarSair { font-size:11px; font-family:Arial; color:#c9c9c9; text-decoration:none; font-weight:bold; }
         .topoLinkAlterarSair:hover { font-size:11px; font-family:Arial; color:#c9c9c9; text-decoration:none; font-weight:bold; }
 
 .menu{ 
     margin: auto;
-    width: 60% !important;
+    width: 1020px !important;
     padding: 5px;
     width:100%; height: 360px;
 }
@@ -37,7 +37,7 @@ body
 }
 .fundo_menu{ 
     width:1010px; height: 80px;
-    background: url(../imagens/menu.png) no-repeat center top 0px;
+    background: url(../imagens/adrenalina/imagens/menu.png) no-repeat center top 0px;
 }
 .fundo_menu .container{
     height: 36px;
@@ -125,7 +125,7 @@ body
 {
     height: 35px;
     margin: auto;
-    width: 835px !important;
+    width: 840px !important;
 }
 .menuLinha a{ padding-top:12px }
 .menuMeio li{ margin-left:-33px; margin-top:5px; list-style-type: none; position:absolute; z-index:2;min-width: 88px;}
@@ -270,9 +270,9 @@ body
 .fundoRodape{ width: 100%; height:90px; margin-top:3px; *margin-top:4px; position:absolute; z-index:0 !important; background-image:url(../imagens/fundo_rodape.gif); }
 .rodape{ width: 983; height:57px; margin-top:16px; text-align: center;  margin-left:auto; margin-right:auto; }
     .rodapeBtnMapa{ display:block; width: 600px; margin-top:-34px; *margin-top:-38px; margin-left:auto; margin-right:auto; padding-right: 273px; }
-	.rodapeBtnAjuda{ display:block; width: 600px; margin-top:-15px; *margin-top:-19px; margin-left:auto; margin-right:auto; padding-right: 93px; }
-	.rodapeBtnFaleConosco{ display:none; margin-left: 480px; margin-right: auto; margin-top: -34px; width: 600px; }
-	.rodapeBtnFaleConoscoLogado{ display:block; margin-left: 88px; margin-right: auto; margin-top: -15px; *margin-top: -21px; }
+    .rodapeBtnAjuda{ display:block; width: 600px; margin-top:-15px; *margin-top:-19px; margin-left:auto; margin-right:auto; padding-right: 93px; }
+    .rodapeBtnFaleConosco{ display:none; margin-left: 480px; margin-right: auto; margin-top: -34px; width: 600px; }
+    .rodapeBtnFaleConoscoLogado{ display:block; margin-left: 88px; margin-right: auto; margin-top: -15px; *margin-top: -21px; }
     .rodapeEspacador1{ display:block; width: 600px; margin-top:-16px; *margin-top:-20px; margin-left:auto; margin-right:auto; padding-right: 157px; }
     .rodapeEspacador2{ display:block; width: 600px; margin-top:-16px; *margin-top:-20px; margin-left:auto; margin-right:auto; padding-right: 26px; }
 
@@ -283,7 +283,16 @@ body
     font-family:Arial; font-size: 11px; font-weight:bold; color: #ffffff; font-style:italic; margin: 0; padding: 0; background: transparent url(../imagens/btn_generico.png) no-repeat center top; cursor:pointer; display:block; }
 .botaoGenerico_G{ font-family:Arial; font-size: 14px; font-weight:bold; color: #ffffff; font-style:italic; width: 285px; height: 27px; margin: 0; padding: 0; border: 0; background: transparent url(../imagens/btn_generico_g.png) no-repeat center top; cursor:pointer; text-transform: capitalize;}
 
-.breadcrumb { margin-left: 12px;text-transform: uppercase; font-family: Arial; font-size: 11px; font-weight: bold; color: #424d58; }
+.breadcrumb { 
+        margin-left: 60px;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 49px;
+    position: absolute;
+     }
 .breadcrumb a:link, .breadcrumb a:visited { color: #424d58; text-decoration: none; }
 .breadcrumb a:hover{ color: #424d58; text-decoration: underline; }
 .breadcrumb .corrent { color: #c0c0c0; }
